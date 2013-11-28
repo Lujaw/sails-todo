@@ -3,8 +3,18 @@
 	-> model
 ---------------------*/
 module.exports = {
-	
-	attributes	: {
+
+	attributes: {
+
+
+		"title": {
+			"type": "string",
+			"required": true,
+			"type": "string",
+		},
+		"deadline": "string",
+		"priority": "integer",
+		"status": "string"
 
 		// Simple attribute:
 		// name: 'STRING',
