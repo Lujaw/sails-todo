@@ -7,14 +7,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
 		<!-- JavaScript and stylesheets from your public folder are included here -->
-		<%- assets.css() %>
-		<%- assets.js() %>
+
 	</head>
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="/linker/styles/bootstrap-theme.css">
+    <link rel="stylesheet" href="/linker/styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/linker/styles/bootstrap.css">
+    <link rel="stylesheet" href="/linker/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/linker/styles/custom.css">
+    <!--STYLES END-->
 
 	<body>
 		<%- body %>
 
 		<!-- Templates from your view path are included here -->
-		<%- assets.templateLibrary() %>
 	</body>
 </html>
